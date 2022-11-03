@@ -24,13 +24,11 @@ const person : Person = {
 }
 person.age = 50
 
-
 let   { namee, galaxy } = planet;
 const { sexo, age } = person;
 
-
 console.log("--------EJERCICIO1---------------")
 console.log(`Objeto con let valores son  ${namee} y ${galaxy}`);
-console.log(`Objeto con const valore son ${sexo}  y ${age}`);
+console.log(`Objeto con const valores son ${sexo}  y ${age}`);
 
 
